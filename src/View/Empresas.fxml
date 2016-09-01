@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="255.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EmpresasController">
+   <children>
+      <TextField fx:id="idnomeempresa" layoutX="43.0" layoutY="40.0" prefHeight="25.0" prefWidth="385.0" promptText="Digite o Nome da Empresa" />
+      <TextField fx:id="idcnpj" layoutX="43.0" layoutY="74.0" prefHeight="25.0" prefWidth="194.0" promptText="Digite o CNPJ da Empresa" />
+      <TextField fx:id="idcpfempresa" layoutX="249.0" layoutY="74.0" prefHeight="25.0" prefWidth="179.0" promptText="Digite seu CPF" />
+      <TextField fx:id="idendereçoempresa" layoutX="43.0" layoutY="106.0" prefHeight="25.0" prefWidth="281.0" promptText="Digite o Endereço" />
+      <TextField fx:id="idnumeroempresa" layoutX="339.0" layoutY="106.0" prefHeight="25.0" prefWidth="88.0" promptText="Nº" />
+      <TextField fx:id="idcidadeempresa" layoutX="43.0" layoutY="138.0" prefHeight="25.0" prefWidth="194.0" promptText="Cidade" />
+      <TextField fx:id="idestadoempresa" layoutX="248.0" layoutY="138.0" prefHeight="25.0" prefWidth="179.0" promptText="Estado" />
+      <Button fx:id="idcancelarempresa" layoutX="123.0" layoutY="187.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="97.0" text="Cancelar" />
+      <Button fx:id="idcadastroempresa" layoutX="272.0" layoutY="187.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="97.0" text="Cadastrar" />
+   </children>
+</AnchorPane>

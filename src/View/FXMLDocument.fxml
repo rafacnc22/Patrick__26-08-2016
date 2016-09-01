@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="idtelainicial" prefHeight="357.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLDocumentController">
+    <children>
+        <Button fx:id="idbotaosair" layoutX="388.0" layoutY="239.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="69.0" text="Sair" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="identrar" layoutX="507.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Entrar" />
+      <TextField fx:id="idusuario" layoutX="389.0" layoutY="116.0" prefHeight="25.0" prefWidth="187.0" promptText="Digite seu Usuario" />
+      <Label layoutX="389.0" layoutY="87.0" text="Usuario" />
+      <Label layoutX="389.0" layoutY="152.0" text="Senha" />
+      <ImageView fitHeight="367.0" fitWidth="360.0" layoutX="16.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagem/Death_Note_L_ident.jpg" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="idsenha" layoutX="389.0" layoutY="179.0" prefHeight="25.0" prefWidth="187.0" promptText="Digite sua Senha" />
+    </children>
+</AnchorPane>

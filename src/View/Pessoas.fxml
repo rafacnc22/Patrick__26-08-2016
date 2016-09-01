@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="302.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PessoasController">
+   <children>
+      <TextField fx:id="idnomepessoa" layoutX="36.0" layoutY="47.0" prefHeight="25.0" prefWidth="201.0" promptText="Digite seu Nome" />
+      <TextField fx:id="idsobrenome" layoutX="261.0" layoutY="47.0" prefHeight="25.0" prefWidth="201.0" promptText="Digite seu Sobrenome" />
+      <TextField fx:id="idrg" layoutX="36.0" layoutY="89.0" prefHeight="25.0" prefWidth="201.0" promptText="Digite seu RG" />
+      <TextField fx:id="idcpfpessoa" layoutX="261.0" layoutY="89.0" prefHeight="25.0" prefWidth="201.0" promptText="Digite seu CPF" />
+      <TextField fx:id="idemail" layoutX="36.0" layoutY="124.0" prefHeight="25.0" prefWidth="427.0" promptText="Digite seu Email" />
+      <TextField fx:id="idendereçopessoa" layoutX="36.0" layoutY="159.0" prefHeight="25.0" prefWidth="344.0" promptText="Digite seu Endereço" />
+      <TextField fx:id="numeroendrepessoa" layoutX="389.0" layoutY="159.0" prefHeight="25.0" prefWidth="75.0" promptText="Nº" />
+      <TextField fx:id="idcidadepessoa" layoutX="36.0" layoutY="197.0" prefHeight="25.0" prefWidth="201.0" promptText="Cidade" />
+      <TextField fx:id="idestadopessoa" layoutX="250.0" layoutY="197.0" prefHeight="25.0" prefWidth="214.0" promptText="Estado" />
+      <Button fx:id="idcancelarpessoa" layoutX="100.0" layoutY="236.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="121.0" text="Cancelar" />
+      <Button fx:id="cadastropessoa" layoutX="283.0" layoutY="236.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="121.0" text="Cadastrar" />
+   </children>
+</AnchorPane>
